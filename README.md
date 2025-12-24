@@ -83,6 +83,27 @@
 афины_NOUN греция_NOUN берн_NOUN швейцария_NOUN
 
 
+# 3 visualization  
+
+# T-SNE de Word Embeddings
+![Visualización T-SNE de Word Embeddings](Word2Vec.png)
+
+
+1. Точки представляют 1000 наиболее часто встречающихся слов. 
+
+2. показывает несколько точек, разбросанных вправо и вверх
+3. показывает высокую центральную плотность
+
+
+
+# T-SNE de Word2Vec con SVD
+
+![Visualización T-SNE de Word2Vec con SVD](T-SNE.png)
+
+1. показывает несколько четких и сгруппированных точек
+2. плотность не сосредоточена в центре, а больше распределена по группам
+
+
 # Conclusion for Task 2: Mystem to UPOS Tag Conversion for Word2Vec Evaluation
 
 ## Description of Technical Work Performed
@@ -164,14 +185,18 @@ and economics. Therefore, results related to geography (0%), economics
 ![Visualización T-SNE de Word Embeddings](Word2Vec.png)
 
 
-Точки представляют 1000 наиболее часто встречающихся слов. Близость указывает на семантическое сходство согласно модели word2vec.
+1. The dots represent the 1000 most frequent words.
+2. shows several dots scattered to the right and upward
+3. shows a high central density
 
 
 # T-SNE de Word2Vec con SVD
 
 ![Visualización T-SNE de Word2Vec con SVD](T-SNE.png)
 
-Изображение, сгенерированное t-SNE после применения редукции SVD, показывает более эффективное и организованное распределение эмбеддингов слов в двумерном пространстве
+
+1. shows several distinct and grouped dots
+2. The density is not concentrated in the center, but rather distributed among the groups
 
 
 
