@@ -103,6 +103,34 @@
 1. показывает несколько четких и сгруппированных точек
 2. плотность не сосредоточена в центре, а больше распределена по группам
 
+СРАВНЕНИЕ МЕТОДОВ
+
+TF-IDF (Традиционный метод):
+Преимущества:
+✅ Прост и быстр в реализации
+✅ Хорошо работает со сбалансированными наборами данных
+✅ Не требует предварительного обучения
+
+Недостатки:
+❌ Не захватывает семантические отношения
+❌ Высокая размерность (разреженная матрица)
+❌ Не обрабатывает слова вне словаря
+
+Word2Vec (Текущий метод):
+Преимущества:
+✅ Захватывает семантические и синтаксические отношения
+✅ Фиксированная размерность (например: 300)
+✅ Позволяет выполнять математические операции со словами
+✅ Transfer learning (повторное использование моделей)
+
+Недостатки:
+❌ Не обрабатывает слова вне словаря
+❌ Требует много текста для обучения
+❌ Чувствителен к параметрам обучения
+❌ Не различает синонимы и антонимы
+
+
+
 
 # Conclusion for Task 2: Mystem to UPOS Tag Conversion for Word2Vec Evaluation
 
@@ -198,5 +226,29 @@ and economics. Therefore, results related to geography (0%), economics
 1. shows several distinct and grouped dots
 2. The density is not concentrated in the center, but rather distributed among the groups
 
+METHODS COMPARISON
 
+TF-IDF (Traditional method):
+Advantages:
+✅ Simple and fast to implement
+✅ Works well with balanced datasets
+✅ Doesn't require prior training
+
+Disadvantages:
+❌ Doesn't capture semantic relationships
+❌ High dimensionality (sparse matrix)
+❌ Doesn't handle out-of-vocabulary words
+
+Word2Vec (Current method):
+Advantages:
+✅ Captures semantic and syntactic relationships
+✅ Fixed dimension (e.g.: 300)
+✅ Allows mathematical operations with words
+✅ Transfer learning (reusing models)
+
+Disadvantages:
+❌ Doesn't handle out-of-vocabulary words
+❌ Requires large amounts of text for training
+❌ Sensitive to training parameters
+❌ Doesn't distinguish between synonyms and antonyms
 
