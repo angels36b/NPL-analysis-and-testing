@@ -103,9 +103,10 @@
 1. показывает несколько четких и сгруппированных точек
 2. плотность не сосредоточена в центре, а больше распределена по группам
 
-СРАВНЕНИЕ МЕТОДОВ
+# СРАВНЕНИЕ МЕТОДОВ
 
 TF-IDF (Традиционный метод):
+
 Преимущества:
 ✅ Прост и быстр в реализации
 ✅ Хорошо работает со сбалансированными наборами данных
@@ -226,9 +227,10 @@ and economics. Therefore, results related to geography (0%), economics
 1. shows several distinct and grouped dots
 2. The density is not concentrated in the center, but rather distributed among the groups
 
-METHODS COMPARISON
+# METHODS COMPARISON
 
 TF-IDF (Traditional method):
+
 Advantages:
 ✅ Simple and fast to implement
 ✅ Works well with balanced datasets
