@@ -1,8 +1,8 @@
-# Archivos de datos/modelos pesados (CORREGIDOS)
+# === ARCHIVOS DE DATOS/MODELOS PESADOS ===
 180/
 movie_reviews.model
-unlabelledTrainData.tsv    # CORREGIDO: con 'T'
-unlabeledTrainData.tsv     # AÑADIDO: versión con una 'l'
+unlabelledTrainData.tsv
+unlabeledTrainData.tsv
 *.zip
 *.model
 *.bin
@@ -10,10 +10,25 @@ unlabeledTrainData.tsv     # AÑADIDO: versión con una 'l'
 *.h5
 *.npy
 
-# Subrepositorio fastText (IMPORTANTE AÑADIR)
+# === DATOS CSV/DERIVADOS ===
+*.csv
+*.tsv
+
+# === SUBREPOSITORIO ===
 fastText/
 
-# Python
+# === DOCUMENTOS Y ARCHIVOS TEMPORALES ===
+*.pdf
+*.docx
+*~
+*.tmp
+*.temp
+
+# === SISTEMA ===
+.DS_Store
+Thumbs.db
+
+# === PYTHON ===
 __pycache__/
 *.pyc
 *.pyo
@@ -21,9 +36,3 @@ __pycache__/
 .Python
 env/
 venv/
-
-# Sistema
-.DS_Store    # CORREGIDO: .DS_Store no .D5_Store
-Thumbs.db
-*.tmp
-*.temp
