@@ -1,0 +1,29 @@
+# Archivos de datos/modelos pesados (CORREGIDOS)
+180/
+movie_reviews.model
+unlabelledTrainData.tsv    # CORREGIDO: con 'T'
+unlabeledTrainData.tsv     # AÑADIDO: versión con una 'l'
+*.zip
+*.model
+*.bin
+*.pkl
+*.h5
+*.npy
+
+# Subrepositorio fastText (IMPORTANTE AÑADIR)
+fastText/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Sistema
+.DS_Store    # CORREGIDO: .DS_Store no .D5_Store
+Thumbs.db
+*.tmp
+*.temp
