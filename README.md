@@ -158,9 +158,20 @@ and economics. Therefore, results related to geography (0%), economics
 афины_NOUN греция_NOUN пекин_NOUN китай_NOUN
 афины_NOUN греция_NOUN берлин_NOUN германия_NOUN
 
-# visualization 
+# visualization  
+
+# T-SNE de Word Embeddings
 ![Visualización T-SNE de Word Embeddings](Word2Vec.png)
 
 
 Точки представляют 1000 наиболее часто встречающихся слов. Близость указывает на семантическое сходство согласно модели word2vec.
+
+
+# T-SNE de Word2Vec con SVD
+
+![Visualización T-SNE de Word2Vec con SVD](T-SNE.png)
+
+Изображение, сгенерированное t-SNE после применения редукции SVD, показывает более эффективное и организованное распределение эмбеддингов слов в двумерном пространстве
+
+
 
